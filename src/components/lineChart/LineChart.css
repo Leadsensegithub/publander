@@ -1,0 +1,50 @@
+/* .line-card .card-body .custom-line-chart {
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+}
+.custom-line-chart canvas{
+    width: 60vw !important;
+    height: 60vh !important;
+} */
+
+.line-card .IBD-identifier .btn-circle {
+  width: 22px;
+  height: 22px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  border-color: #ffa361;
+  border-width: 5px;
+  font-size: 12px;
+  line-height: 1.42857;
+  cursor: default;
+}
+
+.line-card .Done-identifier .btn-circle {
+  width: 22px;
+  height: 22px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  border-color: #9765ff;
+  border-width: 5px;
+  font-size: 12px;
+  line-height: 1.42857;
+  cursor: default;
+}
+
+.line-card .line-chart-title-and-identifier h4 {
+  color: #0b1224;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.line-card .IBD-identifier p,
+.line-card .Done-identifier p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.line-card .custom-line-chart canvas {
+  height: 32vh !important;
+  width: 100% !important;
+}

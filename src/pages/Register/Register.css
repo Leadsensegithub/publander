@@ -1,0 +1,108 @@
+.Register .Register-body {
+    padding: 20px;
+    margin: 3% 3%;
+}
+
+.Register {
+    position: relative;
+}
+
+.Register .css-1s2u09g-control {
+    height: 70px;
+}
+.Register .css-319lph-ValueContainer{
+    height: 70px;
+}
+.Register .tc{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 30px;
+    
+}
+.Register .tc label{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.Register .Register-body .google button {
+    background-color: white;
+    color: black;
+    height: 70px;
+    border: 1px solid rgb(205, 211, 216);
+    font-size: 20px;
+}
+
+.Register .title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Register .Register-body .input-lg {
+    margin-top: 8%;
+
+}
+
+.Register .input-lg button {
+    background-color: white;
+    top: 3px;
+    height: 65px;
+    border: none;
+    position: absolute;
+    right: 20px;
+}
+
+.Register .input-group>.form-control:focus,
+.input-group>.form-floating:focus-within,
+.input-group>.form-select:focus {
+    z-index: 0;
+}
+
+.Register .input-lg button:hover {
+    background-color: white;
+    top: 3px;
+    height: 65px;
+    border: none;
+    position: absolute;
+    right: 20px;
+}
+
+.Register .Register-body .input-lg input {
+    height: 70px;
+}
+
+.Register .Register-button {
+    margin-top: 20px;
+}
+
+.Register .Register-button button {
+    background-color: #05cf20;
+    margin-top: 20px;
+    color: white;
+    height: 70px;
+    border: 1px solid aliceblue;
+
+    font-size: 20px;
+}
+
+.Register .ForgotPassword {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.Register .title a {
+    color: blue;
+}
+
+.Register .ForgotPassword a:hover {
+    color: blue;
+}
+
+.Register .DA a:hover {
+    color: blue;
+}
+
+.Register .DA {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: end;
+}

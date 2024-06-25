@@ -1,0 +1,95 @@
+:root {
+  /* black and green theme */
+  --black1: #0b1224;
+  --green1: #029046;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #0b1224;
+}
+
+/* Loading... */
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+}
+
+.btn-success {
+  color: #ffffff !important;
+  background: linear-gradient(89.93deg,
+      #029046 0.07%,
+      #4fb155 99.96%) !important;
+  box-shadow: 0px 10px 20px rgba(79, 177, 85, 0.3) !important;
+  border-radius: 10px !important;
+  border: none !important;
+}
+
+.main_wrapper {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  margin-left: 10px;
+  height: 10px;
+  border-radius: 10px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 14px;
+  background-color: #599bdc;
+  border-radius: 10px;
+}
+
+
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 10px 60px rgba(11, 18, 36, 0.1);
+  border-radius: 15px !important;
+  border: none !important;
+}
+
+.body {
+  overflow: hidden;
+  flex: 1;
+}
+
+/* Table */
+.sc-dmctIk {
+  box-shadow: 0px 10px 60px rgb(11 18 36 / 10%) !important;
+  border-radius: 20px !important;
+}
+
+
+.rdt_Pagination {
+  border: 0 !important;
+}
+
+.rdt_TableHead{
+  background-color: #4f3683 !important;
+  color: white !important;
+}
+.rdt_TableHeadRow{
+  background-color: #4f3683 !important;
+}
+
+
+
+
+
+
+
+/* .gMliOo {
+  display: none;
+} */

@@ -1,0 +1,140 @@
+.inboundSLA-performance .inboundSLA-performance-chart .inboundSLA-chart-card {
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: row; */
+  position: relative;
+  gap: 10%;
+}
+
+.inboundSLA-performance .nodata {
+  display: flex;
+  justify-content: center;
+}
+
+.inboundSLA-performance .inboundSLA-performance-chart .inboundSLA-chart-card .inboundSLA-chart-details {
+  /* display: flex;
+    flex-direction: column;
+    gap: 14px; */
+  position: relative;
+  font-size: 14px;
+}
+
+.inboundSLA-performance .inboundSLA-performance-chart .inboundSLA-chart-card .inboundSLA-chart-details span {
+  margin-left: 10px;
+  align-content: space-around;
+}
+
+/* .inboundSLA-performance
+    .inboundSLA-performance-chart
+    .inboundSLA-chart-card
+    .inboundSLA-chart-details
+    .inboundSLA-status:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    border: 2px solid #28dda7;
+    background-color: #28dda7;
+    height: 13px;
+    width: 13px;
+    border-radius: 50px;
+    left: -20px;
+    top: 4px;
+  } */
+
+/* .inboundSLA-performance
+    .inboundSLA-performance-chart
+    .inboundSLA-chart-card
+    .inboundSLA-chart-details
+    .inboundSLA-status:nth-child(2)::before {
+    content: "";
+    position: absolute;
+    border: 2px solid #ffc54d;
+    background-color: #ffc54d;
+    height: 13px;
+    width: 13px;
+    border-radius: 50px;
+    left: -20px;
+    top: 40px;
+  } */
+
+.inboundSLA-performance .inboundSLA-performance-chart .inboundSLA-chart-card .inboundSLA-chart-details .inboundSLA-status:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  border: 2px solid green;
+  background-color: green;
+  height: 13px;
+  width: 13px;
+  border-radius: 50px;
+  left: -20px;
+  top: 5px;
+}
+
+.inboundSLA-performance .inboundSLA-performance-chart .inboundSLA-chart-card .inboundSLA-chart-details .inboundSLA-status:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  border: 2px solid orange;
+  background-color: orange;
+  height: 13px;
+  width: 13px;
+  border-radius: 50px;
+  left: -20px;
+  bottom: 38px;
+}
+
+.inboundSLA-performance .inboundSLA-performance-chart .inboundSLA-chart-card .inboundSLA-chart-details .inboundSLA-status:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  border: 2px solid red;
+  background-color: red;
+  height: 13px;
+  width: 13px;
+  border-radius: 50px;
+  left: -20px;
+  bottom: 3px;
+}
+
+.inboundSLA-performance .inboundSLA-performance-chart .inboundSLA-chart-card .inboundSLA-chart-details .inboundSLA-status {
+  color: #8f8a98;
+}
+
+.inboundSLA-performance .inboundSLA-performance-table .green-status {
+  background: rgba(83, 191, 157, 0.1);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #53bf9d;
+  padding: 5px 10px;
+}
+
+.inboundSLA-performance .inboundSLA-chart-card .inboundSLA-data-tooltip {
+  position: absolute;
+  width: 20%;
+  height: 60%;
+  left: 45%;
+  padding: 3%;
+  box-shadow: 0px 10px 60px rgba(11, 18, 36, 0.1);
+  gap: 10px;
+  align-items: start;
+  justify-content: center;
+}
+
+.inboundSLA-performance .inboundSLA-performance-table span {
+  overflow: hidden;
+  white-space: pre;
+}
+
+.inboundSLA-performance .inboundSLA-performance-table .sc-dmctIk::-webkit-scrollbar {
+  margin-left: 10px;
+  height: 10px;
+  border-radius: 10px;
+  width: 10px;
+}
+
+.inboundSLA-performance .inboundSLA-performance-table .sc-dmctIk::-webkit-scrollbar-thumb {
+  height: 15px;
+  background-color: #599bdc;
+  border-radius: 10px;
+}
+
+.inboundSLA-performance {
+  margin-bottom: 5%;
+}

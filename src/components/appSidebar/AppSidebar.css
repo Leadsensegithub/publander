@@ -1,0 +1,32 @@
+.appsidebar {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+
+.appsidebar .app-toggle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #4f3683;
+  box-shadow: 5px 4px 17px rgb(175 174 174);
+  ;
+  margin-bottom: 20px;
+}
+
+.app-toggle2 {
+  margin-bottom: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+
+  padding: 10px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 5px 4px 17px rgb(175 174 174);
+}

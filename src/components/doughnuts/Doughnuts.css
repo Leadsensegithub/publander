@@ -1,0 +1,173 @@
+.donut-card .card-body .donuts .donut-pending-inbound .inbound,
+.donut-card .card-body .donuts .donut-pending-despatch .despatch,
+.donut-card .card-body .donuts .donut-pending-delivery .delivery {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+.text{
+  margin-top: 30px;
+}
+.rounded-doughnut {
+  position: relative;
+  /* margin: auto; */
+  width: 194px !important;
+  height: 194px !important;
+  align-items: center;
+}
+.rounded-doughnut canvas {
+  position: relative;
+  margin: auto;
+  width: 194px !important;
+  height: 194px !important;
+}
+
+.total {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.rounded-doughnut-percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.rounded-doughnut .rounded-doughnut-percentage {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.total h4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.total p {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--green1);
+}
+
+.donuts > div > p {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+
+.donut-identifier .identifier .bg-info {
+  background: #53bf9d !important;
+}
+
+.donut-identifier .identifier .bg-success {
+  background: #a9c275 !important;
+}
+
+.donut-identifier .identifier .bg-warning {
+  background: #ffc54d !important;
+}
+
+.donut-identifier .identifier .bg-light {
+  background: #fc895a !important;
+}
+
+.donut-identifier .identifier .bg-danger {
+  background: #f94c66 !important;
+}
+
+.donut-identifier .identifier span:last-child {
+  color: #939299;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 10px;
+  padding: 7px 2px;
+}
+
+.donut-identifier .identifier {
+  position: relative;
+}
+
+.donut-identifier .identifier:nth-child(1)::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #FFC100;
+  background-color: #FFC100;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  left: -12px;
+  top: 4px;
+  margin: 7px 0px;
+}
+
+.donut-identifier .identifier:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #FF7400;
+  background-color: #FF7400;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  left: -12px;
+  top: 4px;
+  margin: 7px 0px;
+}
+
+.donut-identifier .identifier:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #FF2400;
+  background-color: #FF2400;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  left: -12px;
+  top: 4px;
+  margin: 7px 0px;
+}
+
+.donut-identifier .identifier:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #C21807;
+  background-color: #C21807;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  left: -12px;
+  top: 4px;
+  margin: 7px 0px;
+}
+
+.donut-identifier .identifier:nth-child(5)::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #a9c275;
+  background-color: #a9c275;
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  left: -12px;
+  top: 4px;
+  margin: 7px 0px;
+}
+
+/* Pendency doughnut chart */
+.pendency-donut {
+  display: flex;
+  flex-direction: column;
+  gap: 8%;
+  align-items: center;
+  justify-content: center;
+}
+
+.pendency-donuts {
+  gap: 28px;
+}

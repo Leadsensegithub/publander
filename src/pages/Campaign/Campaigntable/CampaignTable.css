@@ -1,0 +1,59 @@
+.CampaignTable {
+    margin: 10px;
+    padding: 20px;
+}
+
+.CampaignTable .c_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.CampaignTable .c_title button{
+    background-color: #4f3683;
+    box-shadow: 5px 4px 17px rgb(175 174 174);
+}
+.CampaignTable .height {
+
+    height: 100vh;
+}
+
+.CampaignTable .form {
+    position: relative;
+}
+.CampaignTable .form .fa-search {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.CampaignTable .form span {
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    
+    border-left: 1px solid #d1d5db;
+
+}
+
+.CampaignTable.left-pan {
+    padding-left: 7px;
+}
+
+
+
+.CampaignTable .form-input {
+    width: 500px;
+    height: 40px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.CampaignTable.form-input:focus {
+
+    box-shadow: none;
+    border: none;
+}

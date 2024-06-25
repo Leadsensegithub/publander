@@ -1,0 +1,121 @@
+.app-header {
+  position: sticky;
+  top: 0;
+  background: #4f3683;
+  box-shadow: 0px 10px 60px rgb(11 18 36 / 5%);
+
+}
+
+.app-header-row {
+  justify-content: space-between;
+}
+
+.app-header-left-content {
+  display: flex;
+  align-items: center;
+  gap: 8%;
+  width: auto;
+}
+
+.app-header-left-content .brand_pro {
+  width: 50%;
+}
+
+.app-header-left-content .brand_pro .redington {
+  width: 100%;
+  cursor: pointer;
+}
+
+
+.app-header-left-content .bar {
+  display: flex;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 2%;
+}
+
+.app-header-left-content .bar .menu-bar {
+  padding: 6px;
+  /* background: #0b1224; */
+  border-radius: 8px;
+}
+
+.app-header-right-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: auto;
+}
+
+.app-header-right-content .brand_icon {
+  width: 38%;
+}
+
+.app-header-right-content .user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.app-header-right-content .brand_icon img {
+  width: 100%;
+}
+
+.app-header-right-content .user-info .profile_icon {
+  width: 40px;
+  background-color: aquamarine;
+  padding: 7px;
+  border-radius: 50%;
+  text-align: center;
+
+
+}
+
+.app-header-right-content .user-info .profile_icon img {
+  width: 100%;
+  height: 39px;
+  border-radius: 9px;
+}
+
+.app-header-right-content .user-info .user_name .name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.app-header-right-content .user-info .user_name .user-location {
+  font-size: 12px;
+}
+
+.app-header .found {
+  margin-right: 20px;
+  color: white;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.app-header .notification img {
+  width: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.app-header-right-content .dropdown-menu {
+  position: absolute !important;
+  padding: 0;
+  min-width: 8.5rem;
+}
+
+.app-header .dropdown {
+  position: relative;
+  width: 165px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px 1px;
+  padding: 3px 1px;
+}
+
+.app-header-right-content .dropdown-menu .dropdown-item {
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+}

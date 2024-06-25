@@ -1,0 +1,81 @@
+.Report {
+    margin: 10px;
+    padding: 20px;
+}
+
+.Report .r_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.Report .r_title button {
+    background-color: #4f3683;
+    box-shadow: 5px 4px 17px rgb(175 174 174);
+}
+
+.Report .chart-lebal {
+    position: relative;
+}
+
+.Report .chart-lebal label {
+    position: absolute;
+    top: 39px;
+    left: 47px;
+}
+
+.Report .height {
+
+    height: 100vh;
+}
+
+.Report .form {
+    position: relative;
+}
+
+.Report .form .fa-search {
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.Report .form span {
+
+    position: absolute;
+    right: 17px;
+    top: 13px;
+
+    border-left: 1px solid #d1d5db;
+
+}
+
+.Report.left-pan {
+    padding-left: 7px;
+}
+
+
+.Report .report-header {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 30px 0px;
+    box-shadow: 1px 0px 9px rgb(211 211 211);
+    ;
+
+}
+
+.Report .form-input {
+    width: 500px;
+    height: 40px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.Report.form-input:focus {
+
+    box-shadow: none;
+    border: none;
+}

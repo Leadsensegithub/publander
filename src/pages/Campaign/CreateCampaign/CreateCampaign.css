@@ -1,0 +1,129 @@
+.CreateCampaign {
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.CreateCampaign .cards {
+    /* padding: 2%; */
+    width: 100%;
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 11px rgb(215 215 215);
+}
+
+.CreateCampaign .cards .header-cc {
+    padding: 2%;
+}
+
+.CreateCampaign .cards .body-cc {
+    border-top: 1px solid;
+}
+
+.CreateCampaign .cards .body-cc .body-inner-cc {
+    padding: 2% 3%;
+}
+
+.CreateCampaign .cards .body-cc .body-inner-cc .slect-cc {
+    margin-top: 20px;
+}
+
+.CreateCampaign .cards .body-cc .body-inner-cc .objective {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CreateCampaign .cards .body-cc .body-inner-cc .objective button {
+    border: none;
+    margin: 0px 20px 0px 0px;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.CreateCampaign .cards .body-cc .body-inner-cc .active {
+    border: 2px solid #4f3683 !important;
+}
+
+.CreateCampaign .body-cc .body-inner-cc .add {
+    background-color: #4f3683;
+}
+
+.CreateCampaign .body-cc .body-inner-cc .react-datepicker-wrapper button {
+    border: none;
+    padding: 20px;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.CreateCampaign .fqr {
+    margin-top: 20px;
+}
+
+.CreateCampaign .fqr input {
+    width: 20px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.CreateCampaign .time-range {
+    padding: 3% 0%;
+    overflow: scroll;
+}
+
+.CreateCampaign .time-range input {
+    cursor: pointer;
+
+}
+
+.CreateCampaign .time-range input[type=checkbox] {
+    zoom: 1.4;
+}
+
+.CreateCampaign td {
+    text-align: center;
+    padding: 6px 8px;
+}
+
+.CreateCampaign .time-range .time-selection {
+    background-color: white;
+    border-radius: 10px;
+ 
+}
+
+
+
+.time-selection input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 13.5px;
+    height: 13.5px;
+    border: 1px solid #ccc;
+    /* Optional: Add border for styling */
+}
+
+/* Define custom checkbox appearance */
+.time-selection input[type="checkbox"]:before {
+    content: "";
+    display: block;
+    width: 13.5px;
+    height: 13.5px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+/* Style when checkbox is checked */
+.time-selection input[type="checkbox"]:checked:before {
+    background-color: #4f3683;
+    /* Change to desired color */
+}
+.CreateCampaign .input-ccc{
+margin-top: 20px;
+}
+.CreateCampaign .last{
+    margin-bottom: 50px;
+}

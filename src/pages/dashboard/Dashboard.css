@@ -1,0 +1,40 @@
+
+
+.dashboard .cards {
+  padding: 3%;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: 0px 0px 19px #eceaf1f1;
+  margin: 4%;
+  cursor: pointer;
+}
+
+.dashboard .line-chart {
+  margin: 1%;
+}
+
+.dashboard .Doughnuts {
+  margin: 5px 10px;
+}
+
+.dashboard .word-map {
+  background-color: white;
+  box-shadow: 1px 12px 12px rgb(197, 193, 193);
+  padding: 20px;
+  margin: 35px 12px;
+  border-radius: 5px;
+}
+
+.dashboard .word-map .figure {
+  background-color: red !important;
+}
+.dashboard .header-top{
+  margin: 1%;
+}
+.dashboard .spend {
+  background-color: white;
+  box-shadow: 1px 12px 12px rgb(197, 193, 193);
+  padding: 20px;
+  margin: 35px 12px;
+  border-radius: 5px;
+}

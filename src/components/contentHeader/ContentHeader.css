@@ -1,0 +1,21 @@
+.filter-op {
+  /* box-shadow: 0px 0px 2px 0px rgb(187, 186, 186); */
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.filter-op .d button {
+  border: 1px solid gainsboro;
+  padding: 6.5px;
+  background-color: white;
+
+  border-radius: 4px;
+}
+
+.filter-offcanvas-body {
+  padding: 10px 0px;
+}
+
+.filter-offcanvas-body .submit {
+  float: right;
+}

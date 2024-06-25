@@ -1,0 +1,116 @@
+/* .bar-card .card-body .custom-bar-chart {
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+}
+.custom-bar-chart canvas{
+    width: 60vw !important;
+    height: 60vh !important;
+} */
+.bar-card .fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  z-index: 9;
+  background: white;
+  padding-top: 5%;
+  height: 85% !important;
+  margin-top: 80px;
+  margin-left: 8%;
+  box-shadow: 1px 1px 12px antiquewhite;
+
+}
+
+.bar-card .filter-location {
+  width: 300px;
+}
+
+.bar-card .bar-chart-fullscreen-btn button {
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 50px;
+  border: none;
+  box-shadow: 1px 1px 5px rgb(182, 187, 192);
+  position: absolute;
+}
+
+.bar-card .nodata {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.bar-card .multiplay {
+  background: white;
+  top: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border: none;
+  box-shadow: 1px 1px 5px rgb(182, 187, 192);
+  width: 2%;
+  position: absolute;
+}
+
+.bar-card .bar-chart-fullscreen-btn {
+  margin-right: 13%;
+  margin-top: 0px;
+}
+
+.bar-card .IBD-identifier .btn-circle {
+  width: 22px;
+  height: 22px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  border-color: #ffa361;
+  border-width: 5px;
+  font-size: 12px;
+  line-height: 1.42857;
+  cursor: default;
+}
+
+.bar-card .Done-identifier .btn-circle {
+  width: 22px;
+  height: 22px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  border-color: green;
+  border-width: 5px;
+  font-size: 12px;
+  line-height: 1.42857;
+  cursor: default;
+}
+
+.bar-card .bar-chart-title-and-identifier-ibd-obd h4 {
+  color: #0b1224;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.bar-card .IBD-identifier p,
+.bar-card .Done-identifier p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+.bar-card .custom-bar-chart canvas {
+  height: 50vh !important;
+  width: 100% !important;
+}
+
+.bar-card .custom-bar-chart-InboundSLA canvas {
+  height: 70vh !important;
+  width: 100% !important;
+}
+
+.bar-card .custom-bar-chart-InboundSLA .bar-chart-title-and-identifier h4 {
+  color: #0b1224;
+  font-style: normal;
+  font-size: 18px;
+}

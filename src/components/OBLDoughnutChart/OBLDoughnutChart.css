@@ -1,0 +1,306 @@
+.OBL-doughnut {
+  position: relative;
+  margin: auto;
+  /* width: 280px !important;
+  height: 280px !important; */
+  align-items: center;
+}
+
+.OBL-doughnut_overall {
+  position: relative;
+  margin: auto;
+  /* width: 280px !important;
+  height: 280px !important; */
+  align-items: center;
+}
+
+.OBL-doughnut canvas {
+  position: relative;
+  margin: auto;
+  width: 210px !important;
+  height: 210px !important;
+}
+
+.OBL-doughnut_overall canvas {
+  position: relative;
+  margin: auto;
+  width: 210px !important;
+  height: 210px !important;
+}
+
+.chart-legend li span {
+  width: 100px; /* Set the desired width */
+  height: 20px; /* Set the desired height */
+}
+
+.OBL-doughnut .total,
+.OBL-doughnut_overall .total {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.OBL-doughnut .OBL-doughnut-percentage {
+  position: absolute;
+  top: 36%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.OBL-doughnut_overall .OBL-doughnut-percentage {
+  position: absolute;
+  top: 42.5%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.OBL-doughnut .OBL-doughnut-percentage,
+.OBL-doughnut_overall .OBL-doughnut-percentage {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.OBL-doughnut .total h4,
+.OBL-doughnut_overall .total h4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.OBL-doughnut .total p,
+.OBL-doughnut_overall .total p {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--green1);
+}
+
+.OBL-doughnut .chart-container,
+.OBL-doughnut_overall .chart-container {
+  display: flex;
+}
+
+.OBL-doughnut .legend-container,
+.OBL-doughnut_overall .legend-container {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 4% 8%;
+  justify-content: center;
+}
+
+.OBL-doughnut .legend-item,
+.OBL-doughnut_overall .legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.OBL-doughnut .legend-color,
+.OBL-doughnut_overall .legend-color {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+.OBL-doughnut .legend-label,
+.OBL-doughnut_overall .legend-label {
+  font-size: 14px;
+}
+
+/* InboundSLA chart css */
+
+.InboundSLA {
+  margin: auto;
+  /* width: 280px !important;
+  height: 280px !important; */
+  align-items: center;
+}
+
+.InboundSLA canvas {
+  margin: auto;
+  width: 210px !important;
+  height: 210px !important;
+}
+
+.InboundSLA .total {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.InboundSLA .InboundSLA_percentage {
+  position: absolute;
+  top: 53%;
+  left: 52%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.InboundSLA .InboundSLA_percentage_overall {
+  position: absolute;
+  top: 53%;
+  left: 51%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.InboundSLA .chart .chart_body {
+  position: relative;
+}
+
+.InboundSLA .total h4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.InboundSLA .total p {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--green1);
+}
+
+.InboundSLA .chart-container {
+  display: flex;
+}
+
+.InboundSLA .legend-container {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 4% 9.5%;
+  justify-content: space-between;
+}
+
+.InboundSLA .legend-container_overall {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 9% 4%;
+  justify-content: space-between;
+}
+
+.InboundSLA .legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.InboundSLA .legend-color {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+.InboundSLA .legend-label {
+  font-size: 16px;
+  /* margin-right: 5px; */
+}
+/* outbound SLA */
+.OutboundSLA {
+  margin: 0;
+  /* width: 280px !important;
+  height: 280px !important; */
+  align-items: center;
+}
+
+.OutboundSLA canvas {
+  margin: auto;
+  width: 210px !important;
+  height: 210px !important;
+}
+
+.OutboundSLA .total {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.OutboundSLA .InboundSLA_percentage {
+  position: absolute;
+  top: 53%;
+  left: 52%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.OutboundSLA .InboundSLA_percentage_overall {
+  position: absolute;
+  top: 53%;
+  left: 51%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.OutboundSLA .chart .chart_body {
+  position: relative;
+}
+
+.OutboundSLA .total h4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.OutboundSLA .total p {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--green1);
+}
+
+.OutboundSLA .chart-container {
+  display: flex;
+}
+
+.OutboundSLA .legend-container {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 4% 9.5%;
+  justify-content: space-between;
+}
+
+.OutboundSLA .legend-container_overall {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 9% 4%;
+  justify-content: space-between;
+}
+.OutboundSLA .inner-data {
+  display: none;
+}
+
+.OutboundSLA .legend-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.OutboundSLA .legend-color {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+
+.OutboundSLA .legend-label {
+  font-size: 16px;
+  /* margin-right: 5px; */
+}
+
